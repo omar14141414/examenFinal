@@ -1,0 +1,56 @@
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+}
+
+h1{
+    color: red;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+h2{
+    color: rgb(9, 179, 9);
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+nav{
+    height: 40px;
+    
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    background-color: greenyellow;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+nav ul li:hover{
+    text-decoration: none;
+}
+th, td {
+    border: 1px solid rgba(220, 220, 220, 0.973);
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.campeon {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.semifinalistas{
+    background-color: rgb(206, 132, 49);
+}
+
+a{
+    text-decoration: none;
+}
